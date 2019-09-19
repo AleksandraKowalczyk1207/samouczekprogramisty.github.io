@@ -120,7 +120,7 @@ Dwie pierwsze linijki to dwie zmienne, dwie referencje i dwa różne obiekty (kt
 
 ## Garbage Collector w wirtualenej maszynie Javy
 
-Zbieracz śmieci :) Gargage collector, inaczej GC, jest komponentem wirtualnej maszyny Javy odpowiedzialnym za czyszczenie sterty[^sterta]. Jeśli na stercie znajdą się obiekty, które już nie są używane zostają one usunięte aby zwolnić miejsce dla nowych obiektów.
+Zbieracz śmieci :) Garbage collector, inaczej GC, jest komponentem wirtualnej maszyny Javy odpowiedzialnym za czyszczenie sterty[^sterta]. Jeśli na stercie znajdą się obiekty, które już nie są używane zostają one usunięte aby zwolnić miejsce dla nowych obiektów.
 
 [^sterta]: Nie tylko sterty, wirtualna maszyna Javy alokuje też pamięć w innych celach, na przykład tak zwany "metaspace", który też jest czyszczony przez GC.
 
