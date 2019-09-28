@@ -219,7 +219,7 @@ To właśnie jest kolejna zaleta interfejsów. Dzięki nim możemy pisać progra
 
 Postaram się pokazać Ci kolejny przykład. Ważne jest żebyś zrozumiał koncept interfejsów. Są one bardzo ważne i często używane w codziennym programowaniu. Wyobraź sobie piekarnik. Piekarnik to obiekt. W piekarniku możesz upiec chleb, zrobić dobrą pieczeń czy upiec ciasteczka. Każde z tych dań wymaga innych ustawień piekarnika.
 
-Inna temperatura, inny czas pieczenia, inny tryb. W programowaniu często chcemy ukryć takie szczegóły przez innymi klasami. Na zewnątrz w formie interfejsu wystawiamy jedynie dobrze zdefiniowane metody. Każda z tych metod może być umieszczona w osobnym interfejsie, który będzie implementowany przez obiekt piekarnika:
+Inna temperatura, inny czas pieczenia, inny tryb. W programowaniu często chcemy ukryć takie szczegóły przed innymi klasami. Na zewnątrz w formie interfejsu wystawiamy jedynie dobrze zdefiniowane metody. Każda z tych metod może być umieszczona w osobnym interfejsie, który będzie implementowany przez obiekt piekarnika:
 
 ```java
 public interface BakingOven {
